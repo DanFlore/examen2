@@ -1,0 +1,141 @@
+@charset "utf-8";
+@import url ("mclibre-pie.css");
+
+body{
+background-color: lemonchiffon;
+}
+header{
+background-color: orange;
+}
+main{
+    background-image: url("img/naranja.svg") repeat-y top top, url("/img/naranja2.svg") repeat-y top bottom;
+    width: 800px;
+    height: 700px;
+
+
+}
+footer{
+    
+    background-color: orange;
+}
+
+
+       #menu{
+       
+        background-color: yellow;
+        border: red 5px solid ;
+       }
+   ul#menu li{
+        display:inline;
+        }
+   ul#menu {
+        padding:10px 20px;
+           }
+           
+   ul#menu li {
+       display: inline;
+       color:orange;
+           }
+           
+   ul#menu li a {
+       float: center;
+      
+      color:orange;
+       padding: 10px 20px;
+       text-decoration: none;
+       border-radius: 4px 4px 0 0;
+           }
+           
+   ul#menu li a:hover  {
+       background-color:rgb(17, 102, 151);
+           }
+
+
+
+
+h1.tit{
+    font-size: 200%;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+   color: aliceblue;
+    text-shadow: red 6px 0;
+    text-transform: uppercase;}
+p:hover {
+    z-index: 3;
+}
+
+.amarillo{
+    color:rgb(175, 138, 57);
+    font-size:20px;
+    text-align: left;
+    border: 4px solid;
+    border-color:rgb(148, 148, 7);
+    background-color: yellow;
+    transform: translate(20%);
+    position: absolute;
+    bottom:100px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+   
+
+}
+.azul{
+    color:orange;
+    font-size:20px;
+    text-align: right;
+    border: 4px solid;
+    border-color: rgb(22, 73, 97);
+    background-color: rgb(27, 171, 228);
+    transform: translate(150%);
+    position: absolute;
+    bottom:100px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+}
+.naranja{
+    text-transform: capitalize;
+    color: red;
+    text-decoration:overline;
+
+    font-size:20px;
+    text-align: center;
+    position: absolute;
+    border: 4px solid ;
+    border-color:red;
+    background-color: orange;
+    transform: translate(80%);
+    bottom:15px;
+    padding: 20px;
+    margin-left:40px;
+    width: 500px;
+    height: 200px;
+    top: 40%;
+    background-image: url("img/naranja.png") repeat-y top left, url("/img/naranja.png") repeat-y top right;
+    z-index: 2;
+}
+ul.romanos{
+    list-style-type: upper-roman;
+    color:blue;
+}
+p.ven{
+    color:blue;
+}
+.pielink {
+   
+    all: initial;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    height: 1.5rem;
+    left: 0;
+    width: 100%;
+    padding: 0.25em 0 0.25em;
+    background-color:yellow;
+    color: red;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+}
